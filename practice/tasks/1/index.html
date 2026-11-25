@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="./loginpage.html">
+
+        <div>
+            <label for="">Name:</label>
+            <input type="text" placeholder="Enter your Name" name="name" id="name" required />
+        </div>
+
+        <div>
+            <label for="">Email:</label>
+            <input type="email" placeholder="Enter your Email" name="emailid" id="email" required />
+        </div>
+
+        <div>
+            <label for="">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your Password" required />
+        </div>
+
+        <div>
+            <label for="">Confirm Password:</label>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm your Password"
+                required />
+        </div>
+
+        <div>
+            <label for="">Mobile Number:</label>
+            <input type="tel" name="mobilenumber" id="mobilenumber" placeholder="Enter your mobilenumber" maxlength="10" inputmode="numeric" />
+        </div>
+        
+        <div>
+            <label for="">Address:</label>
+        <textarea name="address" id="address" placeholder="Enter your Address" cols="60" rows="4"></textarea>
+        </div>
+
+        <div>
+            <input type="radio" id="gmale" name="gender"/>
+            <label for="gmale">Male</label>
+            <input type="radio" id="gfemale" name="gender"/>
+            <label for="gfemale">Female</label>
+        </div>
+
+        <div>
+            <label for="">Profile Picture:</label>
+            <input type="file">
+        </div>
+
+        <div>
+            <button>Submit</button>
+        </div>
+
+
+
+
+    </form>
+</body>
+
+</html>

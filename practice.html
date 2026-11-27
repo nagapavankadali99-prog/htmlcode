@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=b, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <ol>
-        <li><a href="./references/banana.html" target="_blank">banana</a></li>
-        <li><a href="./references/apple.html" target="_blank">apple</a></li>
-    </ol>
+    <form action="">
+        <div>
+            <h2 align="center">Create a Journal</h2>
+
+        </div>
+        <div>
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" placeholder="Name of title">
+        </div>
+
+        <div>
+            <label for="Journal-category">Journal Category</label>
+            <select name="Journal-category" id="Journal-category">
+                <option value="">Select</option>
+                <option value="task">Task</option>
+                <option value="note">Note</option>
+                <option value="idea">Idea</option>
 
 
-    <p>hai this is pavan .I completed engineering for <a href="./references/vijayawada.html" target="_blank">vijayawada</a></p>
+            </select>
+        </div>
+        <div>
+            <label for="Journal-entry">Journal entry</label>
+            <textarea name="Journal-entry" id="Journal-entry" rows="5" cols="30" placeholder=""></textarea>
+        </div>
+
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+
 </body>
+
 </html>
